@@ -1,6 +1,9 @@
 # Ignore the specific virtual environment folder
 FNBBTGA_2024/
 
+#Ignore all jupyter notebooks
+*.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
