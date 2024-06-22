@@ -4,6 +4,9 @@ FNBBTGA_2024/
 #Ignore all jupyter notebooks
 *.ipynb
 
+# Ignore the example.py file
+app2.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
