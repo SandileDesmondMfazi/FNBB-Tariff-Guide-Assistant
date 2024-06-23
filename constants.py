@@ -1,9 +1,9 @@
-import os
+import chromadb
 from chromadb.config import Settings
 
-#Define the Chroma settings
-CHROMA_SETTINGS = Settings(
-    chroma_db_impl = 'duckdb+parquet',
-    persist_directory = 'db',
-    anonyamized_telemetry = False
+
+
+CHROMA_SETTINGS = chromadb.PersistentClient(
+    path="./db",
+    settings=Settings(anonymized_telemetry=False)
 )
