@@ -1,6 +1,15 @@
 # Ignore the specific virtual environment folder
 FNBBTGA_2024/
 
+# Ignore Model Folder
+LaMini-T5-738M/
+
+# Ignore sample app notebook
+*.ipynb
+
+# Ignore App2 py file
+app2.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
